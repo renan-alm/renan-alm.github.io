@@ -1,1 +1,23 @@
 theme: jekyll-theme-hacker
+title: My Awesome Site
+description: This is my awesome site built with Jekyll and GitHub Pages.
+url: "https://renan-alm.github.io"
+permalink: /:categories/:year/:month/:day/:title.html
+
+author:
+  name: Your Name
+  email: your-email@example.com
+
+nav:
+  - home: /
+  - about: /about
+  - contact: /contact
+
+social:
+  twitter: eng-renan
+  github: renan-alm
+  linkedin: renan-almeida-93501621
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
