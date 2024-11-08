@@ -1,6 +1,8 @@
 ---
-title: Contact
+title: Contact me
 layout: default
 ---
 # Contact
-This is the contact page.
+
+PAGE UNDER CONSTRUCTION
+```

@@ -1,6 +1,8 @@
 ---
-title: About
+title: About me
 layout: default
 ---
 # About
-This is the about page.
+
+PAGE UNDER CONSTRUCTION
+```
