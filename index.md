@@ -6,7 +6,7 @@
 
 I'm a passionate DevOps Engineer and IT Evangelist with a keen interest in DevEx and learning new technologies. I believe that a great Developer Experience is essential for creating quality code and running efficient organizations.
 
-<script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/zhtbitzijo/0x0x3fb393x"></script>
+<script type="text/javascript" src="https://sessionize.com/renan-alm"></script>
 
 ## Furthermore
 
