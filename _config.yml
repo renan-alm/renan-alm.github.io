@@ -6,7 +6,7 @@ url: "https://renan-alm.github.io"
 permalink: /:categories/:year/:month/:day/:title.html
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/renan-alm/renan-alm.github.io
 
 author:
   name: Renan Almeida
