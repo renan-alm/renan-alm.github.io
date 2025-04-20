@@ -1,15 +1,11 @@
-# Hi there, I'm Renan Alm 👋
-
-![Profile views](https://github.com/renan-alm)
-
-## About Me
+# About Me
 
 I'm a passionate DevOps Engineer interested in DevEx and CICD. <br>
 I believe that a great Developer Experience is essential for creating quality code and running efficient organizations.
 
 <script type="text/javascript" src="https://sessionize.com/renan-alm"></script>
 
-## Furthermore
+# Furthermore
 
 - 🇧🇷 Brazilian developer currently based in Stockholm 🇸🇪 
 - 🎓 BSc in Computer Engineering and an MSc in Electrical Engineering
@@ -17,7 +13,7 @@ I believe that a great Developer Experience is essential for creating quality co
 - 👀 I'm interested in DevOps culture, Dev Experience, Automation, and Infrastructure as Code (IaC).
 - 📫 How to reach me: [renan-alm@github.com](mailto:renan-alm@github.com) 
 
-## GitHub Certifications
+# GitHub Certifications
 
 <div style="display: flex; justify-content: space-around; margin-bottom: 20px;">
   <img src="img/admin_badge.png" alt="Admin Badge" width="200" height="200">
@@ -27,8 +23,7 @@ I believe that a great Developer Experience is essential for creating quality co
   <img src="img/sales_badge.png" alt="Sales Badge" width="200" height="200">
 </div>
 
-
-## A little bit on my toolbox ...
+# Some of my toolbox
 
 <p align="center">
   <a href="https://skillicons.dev">
