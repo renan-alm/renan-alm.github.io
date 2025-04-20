@@ -2,8 +2,8 @@
 # theme: just-the-docs
 theme: jekyll-theme-architect
 remote_theme: pages-themes/architect@v0.2.0
-title: Renan Almeida's Portfolio
-description: Welcome to my portfolio. 
+title: Renan Almeida
+description: Welcome to my GitHub Page 
 url: "https://renan-alm.github.io"
 permalink: /:categories/:year/:month/:day/:title.html
 

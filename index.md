@@ -10,6 +10,7 @@ I believe that a great Developer Experience is essential for creating quality co
 - 🎯 Hobbies including coding, Brazilian jiu-jitsu, DYI, playing video games, dancing, among others 😅
 - 🇧🇷 Made in Brazil - Based in Sweden 🇸🇪
 - 🎤 [My Sessionize Profile](https://sessionize.com/renan-alm) 
+- 💼 [My LinkedIn Profile](https://www.linkedin.com/in/renan-almeida-93501621/) 
 - 📫 How to reach me: [renan-alm@github.com](mailto:renan-alm@github.com) 
 
 # GitHub Certifications
