@@ -7,6 +7,8 @@ description: Welcome to my portfolio.
 url: "https://renan-alm.github.io"
 permalink: /:categories/:year/:month/:day/:title.html
 
+show_downloads: true
+
 aux_links:
   Template Repository: https://github.com/renan-alm/renan-alm.github.io
 
