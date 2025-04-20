@@ -3,8 +3,6 @@
 I'm a passionate DevOps Engineer interested in DevEx and CICD. <br>
 I believe that a great Developer Experience is essential for creating quality code and running efficient organizations.
 
-
-
 - 🎓 BSc in Computer Engineering and an MSc in Electrical Engineering
 - 👀 I'm interested in DevOps culture, Dev Experience, Automation, and Infrastructure as Code (IaC).
 - 🎯 Hobbies including coding, Brazilian jiu-jitsu, DYI, playing video games, dancing, among others 😅
@@ -28,11 +26,11 @@ I believe that a great Developer Experience is essential for creating quality co
 <br>
 <br>
 <br>
-# Some of my toolbox
+# My tech stack (Or some of it)
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=githubactions,jenkins,ansible,terraform,azure,gcp,linux,redhat,debian,maven,kubernetes,docker,git,github,gitlab,bitbucket,python,java,go,vscode,bash,vim,idea,pycharm,obsidian,elasticsearch,grafana,prometheus,matlab,postman,arduino,&perline=14&theme=light" />
+    <img src="https://skillicons.dev/icons?i=githubactions,jenkins,azure,ansible,kubernetes,docker,terraform,gcp,linux,redhat,debian,maven,obsidian,git,github,gitlab,bitbucket,python,java,go,vscode,bash,vim,idea,pycharm,elasticsearch,grafana,prometheus,matlab,postman,arduino,&perline=14&theme=light" />
   </a>
 </p>
 
