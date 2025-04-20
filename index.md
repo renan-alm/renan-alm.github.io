@@ -24,7 +24,9 @@ I believe that a great Developer Experience is essential for creating quality co
   <img src="assets/images/sales_badge.png" alt="Sales Badge" width="200" height="200">
 </div>
 
-* * *
+<br>
+<br>
+<br>
 # Some of my toolbox
 
 <p align="center">
@@ -41,7 +43,9 @@ I believe that a great Developer Experience is essential for creating quality co
 - **Tools**: GitHub Actions, Jenkins, Ansible, Terraform, Azure, GCP, Linux, Red Hat, Debian, Maven, Kubernetes, Docker, Git, GitHub, GitLab, Bitbucket, VSCode, Vim, IntelliJ IDEA, PyCharm, Obsidian, Elasticsearch, Grafana, Prometheus, MATLAB, Postman, Arduino
 -->
 
-* * *
+<br>
+<br>
+<br>
 # GitHub Stats
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
