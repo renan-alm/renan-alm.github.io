@@ -1,5 +1,7 @@
 # theme: jekyll-theme-hacker
-theme: just-the-docs
+# theme: just-the-docs
+theme: jekyll-theme-architect
+remote_theme: pages-themes/architect@v0.2.0
 title: Renan Almeida's Portfolio
 description: Welcome to my portfolio. 
 url: "https://renan-alm.github.io"
@@ -23,6 +25,7 @@ social:
   linkedin: renan-almeida-93501621
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-default-layout
