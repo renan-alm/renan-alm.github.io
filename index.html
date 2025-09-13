@@ -7,6 +7,11 @@
   <meta name="description" content="Welcome to my GitHub Page">
   <meta name="author" content="Renan Almeida">
   
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
   <!-- Reveal.js CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.css">
@@ -15,10 +20,12 @@
   <!-- Custom styling -->
   <style>
     .reveal {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
     }
     .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
       color: #24292e;
     }
     .reveal h1 {
@@ -26,11 +33,16 @@
     }
     .reveal p {
       font-size: 1.2em;
-      line-height: 1.4;
+      line-height: 1.5;
+      font-weight: 300;
     }
     .reveal ul {
       font-size: 1.1em;
-      line-height: 1.4;
+      line-height: 1.5;
+      font-weight: 300;
+    }
+    .reveal strong {
+      font-weight: 500;
     }
     .certifications {
       display: flex;
@@ -52,9 +64,24 @@
     .contact-links a {
       color: #0366d6;
       text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
     }
     .contact-links a:hover {
       text-decoration: underline;
+    }
+    .social a {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      text-decoration: none;
+      color: #0366d6;
+      padding: 8px 15px;
+      border-radius: 4px;
+      background-color: rgba(3, 102, 214, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    .social a:hover {
+      background-color: rgba(3, 102, 214, 0.2);
     }
     .skills img {
       max-width: 100%;
