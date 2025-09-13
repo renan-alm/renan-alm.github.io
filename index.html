@@ -207,117 +207,8 @@
 <body>
   <div class="reveal">
     <div class="slides">
-      <!-- Title Slide -->
-      <section>
-        <h1>Renan Almeida</h1>
-        <h3>DevOps Engineer</h3>
-        <p>Welcome to my GitHub Page</p>
-        <div class="social">
-          <a href="https://github.com/renan-alm">GitHub</a>
-          <a href="https://www.linkedin.com/in/renan-almeida-93501621/">LinkedIn</a>
-          <a href="https://sessionize.com/renan-alm">Sessionize</a>
-          <a href="mailto:renan-alm@github.com">Email</a>
-        </div>
-      </section>
-
-      <!-- About Me Section -->
-      <section>
-        <section class="about-me-section">
-          <div class="about-me-frame">
-            <div class="profile-pic-container">
-              <!-- We'll use a placeholder image since selfie.jpeg wasn't found in your assets -->
-              <img src="https://github.com/renan-alm.png" alt="Renan Almeida" class="profile-pic">
-            </div>
-            <div class="about-me-content">
-              <h2>About Me</h2>
-              <div class="about-me-divider"></div>
-              <p>I'm a passionate DevOps Engineer interested in DevEx and CICD.<br>
-              I believe that a great Developer Experience is essential for creating quality code and running efficient organizations.</p>
-            </div>
-          </div>
-        </section>
-        
-        <section>
-          <h2>Background & Interests</h2>
-          <ul>
-            <li>🎓 BSc in Computer Engineering and an MSc in Electrical Engineering</li>
-            <li>👀 Interested in DevOps culture, Dev Experience, Automation, and Infrastructure as Code (IaC)</li>
-            <li>🎯 Hobbies include coding, Brazilian jiu-jitsu, DIY, video games, dancing, among others 😅</li>
-            <li>🇧🇷 Made in Brazil - Based in Sweden 🇸🇪</li>
-          </ul>
-        </section>
-      </section>
-        
-      <!-- Contact Information moved to its own slide before "Thank You" page -->
-      </section>
-
-      <!-- GitHub Certifications Section -->
-      <section>
-        <h2>GitHub Certifications</h2>
-        <div class="certifications">
-          <div class="top-row">
-            <img src="assets/images/admin_badge.png" alt="Admin Badge">
-            <img src="assets/images/ghcp_badge.png" alt="Copilot Badge">
-            <img src="assets/images/actions_badge.png" alt="Actions Badge">
-          </div>
-          <div class="bottom-row">
-            <img src="assets/images/foundations_badge.png" alt="Foundations Badge">
-            <img src="assets/images/sales_badge.png" alt="Sales Badge">
-          </div>
-        </div>
-      </section>
-
-      <!-- Tech Stack Section -->
-      <section>
-        <section>
-            <h2>My Tech Stack</h2>
-            <p style="text-align:center; font-size:0.95em; color:#173e69; margin-top:10px;">(...or some of it)</p>
-            <p class="skills" style="margin-bottom: 40px; margin-top: 20px;"></p>
-            <img src="https://skillicons.dev/icons?i=githubactions,jenkins,azure,ansible,kubernetes,docker,terraform,gcp,linux,redhat,debian,maven,obsidian,git,github,gitlab,bitbucket,python,java,go,vscode,bash,vim,idea,pycharm,elasticsearch,grafana,prometheus,matlab,postman,arduino,&perline=8&theme=light" alt="Tech Skills">
-        </section>
-        
-        <section>
-          <h2>Technologies & Languages</h2>
-          <ul>
-            <li><strong>Languages:</strong> Python, Java, Go, Bash</li>
-            <li><strong>Frameworks:</strong> Flask, Spring Boot</li>
-            <li><strong>CI/CD:</strong> GitHub Actions, Jenkins</li>
-            <li><strong>Infrastructure:</strong> Terraform, Ansible, Kubernetes, Docker</li>
-            <li><strong>Cloud:</strong> Azure, GCP</li>
-            <li><strong>Monitoring:</strong> Elasticsearch, Grafana, Prometheus</li>
-            <li><strong>Tools:</strong> Git, GitHub, GitLab, Bitbucket, VSCode, Vim, IntelliJ IDEA, PyCharm, Obsidian</li>
-          </ul>
-        </section>
-      </section>
-
-      <!-- GitHub Stats Section -->
-      <section>
-        <h2>GitHub Stats</h2>
-        <img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="Octocat" style="width: 100px;">
-        <img src="https://github-readme-stats.vercel.app/api?username=renan-alm&show_icons=true&theme=default" alt="Renan's GitHub stats">
-      </section>
-
-      <!-- Contact Information Section -->
-      <section>
-        <h2>Contact Information</h2>
-        <div class="contact-links" style="margin-top: 30px;">
-          <a href="https://sessionize.com/renan-alm">🎤 My Sessionize Profile</a>
-          <a href="https://www.linkedin.com/in/renan-almeida-93501621/">💼 My LinkedIn Profile</a>
-          <a href="mailto:renan-alm@github.com">📫 Email: renan-alm@github.com</a>
-        </div>
-        <div class="social" style="margin-top: 40px;">
-          <a href="https://github.com/renan-alm">GitHub</a>
-          <a href="https://www.linkedin.com/in/renan-almeida-93501621/">LinkedIn</a>
-          <a href="mailto:renan-alm@github.com">Email</a>
-        </div>
-      </section>
-
-      <!-- End Slide -->
-      <section>
-        <h2>Thank You!</h2>
-        <p>Feel free to reach out :-)</p>
-      </section>
-
+      <!-- Including the body content from body-content.html -->
+      <!-- To render this dynamically, we'll load it with JavaScript -->
     </div>
   </div>
 
@@ -328,22 +219,53 @@
   <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.js"></script>
 
   <script>
-    // Initialize Reveal.js
-    Reveal.initialize({
-      hash: true,
-      controls: true,
-      progress: true,
-      center: true,
-      transition: 'fade', // options: none/fade/slide/convex/concave/zoom
-      backgroundTransition: 'fade',
-      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
-      // For additional configuration options see: https://revealjs.com/config/
-      controlsBackArrows: 'faded',
-      margin: 0.1,
-      viewDistance: 3,
-      minScale: 0.2,
-      maxScale: 2.0
-    });
+    // Load body content from separate file with cache-busting
+    fetch('body-content.html?v=' + new Date().getTime())
+      .then(response => response.text())
+      .then(data => {
+        document.querySelector('.slides').innerHTML = data;
+        // Initialize Reveal.js after content is loaded
+        Reveal.initialize({
+          hash: true,
+          controls: true,
+          progress: true,
+          center: true,
+          transition: 'fade', // options: none/fade/slide/convex/concave/zoom
+          backgroundTransition: 'fade',
+          plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+          // For additional configuration options see: https://revealjs.com/config/
+          controlsBackArrows: 'faded',
+          margin: 0.1,
+          viewDistance: 3,
+          minScale: 0.2,
+          maxScale: 2.0
+        });
+      })
+      .catch(error => {
+        console.error('Error loading body content:', error);
+      });
+    
+    // For development purposes only: add a refresh button to reload content without cache
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      const refreshButton = document.createElement('button');
+      refreshButton.textContent = 'Refresh Content';
+      refreshButton.style.position = 'fixed';
+      refreshButton.style.top = '10px';
+      refreshButton.style.right = '10px';
+      refreshButton.style.zIndex = '1000';
+      refreshButton.style.padding = '5px 10px';
+      refreshButton.style.backgroundColor = '#173e69';
+      refreshButton.style.color = 'white';
+      refreshButton.style.border = 'none';
+      refreshButton.style.borderRadius = '4px';
+      refreshButton.style.cursor = 'pointer';
+      
+      refreshButton.addEventListener('click', function() {
+        location.reload(true); // Force reload from server
+      });
+      
+      document.body.appendChild(refreshButton);
+    }
   </script>
   <div class="footer">© 2025 Renan Almeida</div>
 </body>
