@@ -1,0 +1,28 @@
+version: 2
+updates:
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "github-actions"
+    
+  # npm dependencies (if you decide to install Reveal.js via npm in the future)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "npm"
+    # Currently inactive since you're using CDNs, but ready if you switch to npm
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
+
+# Note: CDN dependencies (Reveal.js and Google Fonts) are not directly tracked by Dependabot
+# You'll need to manually check for updates to these resources periodically
