@@ -2,7 +2,9 @@ name: GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
+    branches: 
+        - "main"
+        - "feat-**"
   workflow_dispatch:
     inputs:
       branch:
@@ -27,7 +29,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.branch || github.ref }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.branch || github.ref }}
+          
+      - name: Debug info
+        run: |
+          echo "GitHub event name: ${{ github.event_name }}"
+          echo "Branch being used: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.branch || github.ref }}"
+          echo "GitHub ref: ${{ github.ref }}"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -46,4 +54,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
