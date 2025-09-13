@@ -24,17 +24,17 @@
       font-weight: 400;
     }
     .reveal .slides {
-      background-color: #e8f4fc;
+      background-color: #ffffff; /* White background */
     }
     .reveal .slides section {
-      background-color: #e8f4fc;
+      background-color: #ffffff; /* White background */
       padding: 20px;
       border-radius: 8px;
     }
     .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Fira Sans', sans-serif;
       font-weight: 600;
-      color: #1a365d;
+      color: #0a192f; /* Dark navy blue */
       text-transform: none;
     }
     .reveal h1 {
@@ -42,34 +42,43 @@
     }
     .reveal h3 {
       font-weight: 400;
-      color: #2c5282;
+      color: #173e69; /* Medium navy blue */
     }
     .reveal p {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Fira Sans', sans-serif;
       font-size: 1.2em;
       line-height: 1.5;
       font-weight: 300;
-      color: #2d3748;
+      color: #0a192f; /* Dark navy blue */
     }
     .reveal ul {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Fira Sans', sans-serif;
       font-size: 1.1em;
       line-height: 1.5;
       font-weight: 300;
-      color: #2d3748;
+      color: #0a192f; /* Dark navy blue */
     }
     .reveal strong {
       font-weight: 500;
-      color: #1a365d;
+      color: #173e69; /* Medium navy blue */
     }
     .certifications {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 10px;
+      gap: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .certifications .top-row,
+    .certifications .bottom-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
     }
     .certifications img {
-      max-width: 200px;
+      max-width: 180px;
       height: auto;
       margin: 10px;
     }
@@ -80,32 +89,34 @@
       gap: 10px;
     }
     .contact-links a {
-      color: #3182ce;
+      color: #0a192f; /* Dark navy blue */
       text-decoration: none;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Fira Sans', sans-serif;
       font-weight: 500;
     }
     .contact-links a:hover {
       text-decoration: underline;
     }
     .social a {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Fira Sans', sans-serif;
       font-weight: 500;
       text-decoration: none;
-      color: #3182ce;
+      color: #0a192f; /* Dark navy blue */
       padding: 8px 15px;
       border-radius: 4px;
-      background-color: rgba(49, 130, 206, 0.1);
+      background-color: rgba(10, 25, 47, 0.1); /* Slightly transparent navy */
       transition: all 0.3s ease;
       margin: 0 5px;
     }
     .social a:hover {
-      background-color: rgba(49, 130, 206, 0.2);
+      background-color: rgba(10, 25, 47, 0.2); /* Slightly darker transparent navy */
       transform: translateY(-2px);
     }
     .skills img {
       max-width: 100%;
       height: auto;
+      margin: 0 auto;
+      display: block;
     }
     .social {
       display: flex;
@@ -119,13 +130,14 @@
       bottom: 10px;
       right: 10px;
       font-size: 0.6em;
-      color: #6a737d;
+      color: #0a192f; /* Dark navy blue */
+      font-family: 'Fira Sans', sans-serif;
     }
     
     /* Progress bar styling */
     .reveal .progress {
       height: 5px;
-      color: #3182ce;
+      color: #0a192f; /* Dark navy blue */
     }
     
     /* Code blocks */
@@ -147,6 +159,7 @@
           <a href="https://github.com/renan-alm">GitHub</a>
           <a href="https://www.linkedin.com/in/renan-almeida-93501621/">LinkedIn</a>
           <a href="https://sessionize.com/renan-alm">Sessionize</a>
+          <a href="mailto:renan-alm@github.com">Email</a>
         </div>
       </section>
 
@@ -168,35 +181,32 @@
           </ul>
         </section>
         
-        <section>
-          <h2>Contact Information</h2>
-          <div class="contact-links">
-            <a href="https://sessionize.com/renan-alm">🎤 My Sessionize Profile</a>
-            <a href="https://www.linkedin.com/in/renan-almeida-93501621/">💼 My LinkedIn Profile</a>
-            <a href="mailto:renan-alm@github.com">📫 Email: renan-alm@github.com</a>
-          </div>
-        </section>
+        <!-- Contact Information moved to its own slide before "Thank You" page -->
       </section>
 
       <!-- GitHub Certifications Section -->
       <section>
         <h2>GitHub Certifications</h2>
         <div class="certifications">
-          <img src="assets/images/admin_badge.png" alt="Admin Badge">
-          <img src="assets/images/ghcp_badge.png" alt="Copilot Badge">
-          <img src="assets/images/actions_badge.png" alt="Actions Badge">
-          <img src="assets/images/foundations_badge.png" alt="Foundations Badge">
-          <img src="assets/images/sales_badge.png" alt="Sales Badge">
+          <div class="top-row">
+            <img src="assets/images/admin_badge.png" alt="Admin Badge">
+            <img src="assets/images/ghcp_badge.png" alt="Copilot Badge">
+            <img src="assets/images/actions_badge.png" alt="Actions Badge">
+          </div>
+          <div class="bottom-row">
+            <img src="assets/images/foundations_badge.png" alt="Foundations Badge">
+            <img src="assets/images/sales_badge.png" alt="Sales Badge">
+          </div>
         </div>
       </section>
 
       <!-- Tech Stack Section -->
       <section>
         <section>
-          <h2>My Tech Stack</h2>
-          <p class="skills">
-            <img src="https://skillicons.dev/icons?i=githubactions,jenkins,azure,ansible,kubernetes,docker,terraform,gcp,linux,redhat,debian,maven,obsidian,git,github,gitlab,bitbucket,python,java,go,vscode,bash,vim,idea,pycharm,elasticsearch,grafana,prometheus,matlab,postman,arduino,&perline=14&theme=light" alt="Tech Skills">
-          </p>
+            <h2>My Tech Stack</h2>
+            <p style="text-align:center; font-size:0.95em; color:#173e69; margin-top:10px;">(...or some of it)</p>
+            <p class="skills" style="margin-bottom: 40px; margin-top: 20px;"></p>
+            <img src="https://skillicons.dev/icons?i=githubactions,jenkins,azure,ansible,kubernetes,docker,terraform,gcp,linux,redhat,debian,maven,obsidian,git,github,gitlab,bitbucket,python,java,go,vscode,bash,vim,idea,pycharm,elasticsearch,grafana,prometheus,matlab,postman,arduino,&perline=8&theme=light" alt="Tech Skills">
         </section>
         
         <section>
@@ -220,15 +230,25 @@
         <img src="https://github-readme-stats.vercel.app/api?username=renan-alm&show_icons=true&theme=default" alt="Renan's GitHub stats">
       </section>
 
-      <!-- End Slide -->
+      <!-- Contact Information Section -->
       <section>
-        <h2>Thank You!</h2>
-        <p>Feel free to connect with me</p>
-        <div class="social">
+        <h2>Contact Information</h2>
+        <div class="contact-links" style="margin-top: 30px;">
+          <a href="https://sessionize.com/renan-alm">🎤 My Sessionize Profile</a>
+          <a href="https://www.linkedin.com/in/renan-almeida-93501621/">💼 My LinkedIn Profile</a>
+          <a href="mailto:renan-alm@github.com">📫 Email: renan-alm@github.com</a>
+        </div>
+        <div class="social" style="margin-top: 40px;">
           <a href="https://github.com/renan-alm">GitHub</a>
           <a href="https://www.linkedin.com/in/renan-almeida-93501621/">LinkedIn</a>
           <a href="mailto:renan-alm@github.com">Email</a>
         </div>
+      </section>
+
+      <!-- End Slide -->
+      <section>
+        <h2>Thank You!</h2>
+        <p>Feel free to reach out :-)</p>
       </section>
 
     </div>
