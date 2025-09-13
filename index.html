@@ -245,27 +245,29 @@
         console.error('Error loading body content:', error);
       });
     
-    // For development purposes only: add a refresh button to reload content without cache
-    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-      const refreshButton = document.createElement('button');
-      refreshButton.textContent = 'Refresh Content';
-      refreshButton.style.position = 'fixed';
-      refreshButton.style.top = '10px';
-      refreshButton.style.right = '10px';
-      refreshButton.style.zIndex = '1000';
-      refreshButton.style.padding = '5px 10px';
-      refreshButton.style.backgroundColor = '#173e69';
-      refreshButton.style.color = 'white';
-      refreshButton.style.border = 'none';
-      refreshButton.style.borderRadius = '4px';
-      refreshButton.style.cursor = 'pointer';
-      
-      refreshButton.addEventListener('click', function() {
-        location.reload(true); // Force reload from server
-      });
-      
-      document.body.appendChild(refreshButton);
-    }
+    // Add a subtle date display that refreshes the content when clicked
+    const dateDisplay = document.createElement('div');
+    const now = new Date();
+    dateDisplay.textContent = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    dateDisplay.style.position = 'fixed';
+    dateDisplay.style.top = '10px';
+    dateDisplay.style.right = '10px';
+    dateDisplay.style.zIndex = '1000';
+    dateDisplay.style.padding = '3px 8px';
+    dateDisplay.style.backgroundColor = 'rgba(240, 240, 240, 0.7)';
+    dateDisplay.style.color = '#173e69';
+    dateDisplay.style.border = 'none';
+    dateDisplay.style.borderRadius = '4px';
+    dateDisplay.style.fontSize = '0.7em';
+    dateDisplay.style.fontFamily = "'Fira Sans', sans-serif";
+    dateDisplay.style.cursor = 'pointer';
+    dateDisplay.title = 'Click to refresh content';
+    
+    dateDisplay.addEventListener('click', function() {
+      location.reload(true); // Force reload from server
+    });
+    
+    document.body.appendChild(dateDisplay);
   </script>
   <div class="footer">© 2025 Renan Almeida</div>
 </body>
